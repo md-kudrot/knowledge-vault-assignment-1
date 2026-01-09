@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+
+
+
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #469165;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 2px;
+
+}
+
+.btn:hover {
+    background-color: #30B868;
+}
+
+
+
+
+
+.hero {
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-button {
+
+    padding: 0.75rem 1.5rem;
+    background-color: #ffff;
+    color: #469165;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    width: 20rem;
+    margin-top: 8rem;
+}
+
+
+
+.hero button img {
+    margin-right: 0.5rem;
+}
+
+.text .part1 {
+    text-align: center;
+}
+
+.part1 .white-text {
+    color: white;
+    font-size: 4rem;
+
+
+}
+
+.part1 .green-text {
+    color: rgb(15, 212, 15);
+    font-size: 4.2rem;
+}
+
+.part-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    width: 36rem;
+    font-size: 1rem;
+}
+
+.hero-footer-button-div {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.hero-futter-button-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(82, 221, 82, 0.748);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 20rem;
+    margin-top: 8rem;
+}
+
+
+
+.hero-futter-button-1:hover {
+    background-color: #30B868;
+}
+
+
+
+
+
+.hero-futter-button-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+
+    padding: 0.75rem 1rem;
+    background-color: rgba(82, 221, 82, 0);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 20rem;
+    margin-top: 8rem;
+    border: 2px solid gray;
+
+}
